@@ -39,6 +39,7 @@ ALLOWED_HOSTS = ['*', '127.0.0.1', 'www.panzhixiang.cn']
 
 
 INSTALLED_APPS = [
+    'simpleui',
     # 'django.contrib.admin',
     'django.contrib.admin.apps.SimpleAdminConfig',
     'django.contrib.auth',
@@ -294,3 +295,5 @@ COMPRESS_JS_FILTERS = [
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 MEDIA_URL = '/media/'
 X_FRAME_OPTIONS = 'SAMEORIGIN'
+
+SIMPLEUI_DEFAULT_THEME = 'admin.lte.css'
