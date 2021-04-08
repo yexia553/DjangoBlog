@@ -27,7 +27,7 @@ import jsonpickle
 from servermanager.models import commands
 
 robot = WeRoBot(token=os.environ.get('DJANGO_WEROBOT_TOKEN')
-                or 'lylinux', enable_session=True)
+                or 'agjhFig#gohsaFOhspo', enable_session=True)
 memstorage = MemcacheStorage()
 if memstorage.is_available:
     robot.config['SESSION_STORAGE'] = memstorage
